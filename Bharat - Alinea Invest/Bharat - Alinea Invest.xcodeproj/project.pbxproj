@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04682135256109C10058EC56 /* ThemesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04682134256109C10058EC56 /* ThemesViewModel.swift */; };
+		0468213A256109F00058EC56 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04682139256109F00058EC56 /* Theme.swift */; };
+		04AA83A1255D218C009F9622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA83A0255D218C009F9622 /* AppDelegate.swift */; };
+		04AA83A3255D218C009F9622 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA83A2255D218C009F9622 /* SceneDelegate.swift */; };
+		04AA83AB255D218C009F9622 /* Bharat___Alinea_Invest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04AA83A9255D218C009F9622 /* Bharat___Alinea_Invest.xcdatamodeld */; };
+		04AA83AD255D2190009F9622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AA83AC255D2190009F9622 /* Assets.xcassets */; };
+		04AA83B0255D2190009F9622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA83AE255D2190009F9622 /* LaunchScreen.storyboard */; };
+		04AA83BB255D2190009F9622 /* Bharat___Alinea_InvestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA83BA255D2190009F9622 /* Bharat___Alinea_InvestTests.swift */; };
+		04AA83C6255D2190009F9622 /* Bharat___Alinea_InvestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA83C5255D2190009F9622 /* Bharat___Alinea_InvestUITests.swift */; };
+		04AA83E2255D2302009F9622 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA83E1255D2302009F9622 /* MainViewController.swift */; };
+		04AA83EB255D2C00009F9622 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA83EA255D2C00009F9622 /* ExploreViewController.swift */; };
+		04AA83F3255D3A83009F9622 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA83F2255D3A83009F9622 /* CategoryViewController.swift */; };
+		04AA83F8255D3A91009F9622 /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA83F7255D3A91009F9622 /* ThemesViewController.swift */; };
+		04AA83FD255D3AA1009F9622 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA83FC255D3AA1009F9622 /* TrendingViewController.swift */; };
+		04AA8402255D48BD009F9622 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA8401255D48BD009F9622 /* CustomStackView.swift */; };
+		04AA8407255D6489009F9622 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA8406255D6489009F9622 /* CustomButton.swift */; };
+		04AA840C255E5828009F9622 /* InternalConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA840B255E5828009F9622 /* InternalConstraints.swift */; };
+		04AA8418255E6450009F9622 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA8417255E6450009F9622 /* Stock.swift */; };
+		04AA841D255E64EC009F9622 /* TrendingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA841C255E64EC009F9622 /* TrendingViewModel.swift */; };
+		04AA8429255E6B2E009F9622 /* TrendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA8428255E6B2E009F9622 /* TrendingTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AA83B7255D2190009F9622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AA8395255D218C009F9622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AA839C255D218C009F9622;
+			remoteInfo = "Bharat - Alinea Invest";
+		};
+		04AA83C2255D2190009F9622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AA8395255D218C009F9622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AA839C255D218C009F9622;
+			remoteInfo = "Bharat - Alinea Invest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04682134256109C10058EC56 /* ThemesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewModel.swift; sourceTree = "<group>"; };
+		04682139256109F00058EC56 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		04AA839D255D218C009F9622 /* Bharat - Alinea Invest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bharat - Alinea Invest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AA83A0255D218C009F9622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04AA83A2255D218C009F9622 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04AA83AA255D218C009F9622 /* Bharat___Alinea_Invest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Bharat___Alinea_Invest.xcdatamodel"; sourceTree = "<group>"; };
+		04AA83AC255D2190009F9622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AA83AF255D2190009F9622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AA83B1255D2190009F9622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA83B6255D2190009F9622 /* Bharat - Alinea InvestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bharat - Alinea InvestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AA83BA255D2190009F9622 /* Bharat___Alinea_InvestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bharat___Alinea_InvestTests.swift"; sourceTree = "<group>"; };
+		04AA83BC255D2190009F9622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA83C1255D2190009F9622 /* Bharat - Alinea InvestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bharat - Alinea InvestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AA83C5255D2190009F9622 /* Bharat___Alinea_InvestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bharat___Alinea_InvestUITests.swift"; sourceTree = "<group>"; };
+		04AA83C7255D2190009F9622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA83E1255D2302009F9622 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../New Group1/MainViewController.swift"; sourceTree = "<group>"; };
+		04AA83EA255D2C00009F9622 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		04AA83F2255D3A83009F9622 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		04AA83F7255D3A91009F9622 /* ThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewController.swift; sourceTree = "<group>"; };
+		04AA83FC255D3AA1009F9622 /* TrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		04AA8401255D48BD009F9622 /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
+		04AA8406255D6489009F9622 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		04AA840B255E5828009F9622 /* InternalConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InternalConstraints.swift; path = "../New Group/InternalConstraints.swift"; sourceTree = "<group>"; };
+		04AA8417255E6450009F9622 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		04AA841C255E64EC009F9622 /* TrendingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewModel.swift; sourceTree = "<group>"; };
+		04AA8428255E6B2E009F9622 /* TrendingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AA839A255D218C009F9622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA83B3255D2190009F9622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA83BE255D2190009F9622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AA8394255D218C009F9622 = {
+			isa = PBXGroup;
+			children = (
+				04AA839F255D218C009F9622 /* Bharat - Alinea Invest */,
+				04AA83B9255D2190009F9622 /* Bharat - Alinea InvestTests */,
+				04AA83C4255D2190009F9622 /* Bharat - Alinea InvestUITests */,
+				04AA839E255D218C009F9622 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AA839E255D218C009F9622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AA839D255D218C009F9622 /* Bharat - Alinea Invest.app */,
+				04AA83B6255D2190009F9622 /* Bharat - Alinea InvestTests.xctest */,
+				04AA83C1255D2190009F9622 /* Bharat - Alinea InvestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AA839F255D218C009F9622 /* Bharat - Alinea Invest */ = {
+			isa = PBXGroup;
+			children = (
+				04AA8416255E6423009F9622 /* Model */,
+				04AA83E6255D23D9009F9622 /* Views */,
+				04AA83A0255D218C009F9622 /* AppDelegate.swift */,
+				04AA83A2255D218C009F9622 /* SceneDelegate.swift */,
+				04AA83AC255D2190009F9622 /* Assets.xcassets */,
+				04AA83AE255D2190009F9622 /* LaunchScreen.storyboard */,
+				04AA83B1255D2190009F9622 /* Info.plist */,
+				04AA83A9255D218C009F9622 /* Bharat___Alinea_Invest.xcdatamodeld */,
+			);
+			path = "Bharat - Alinea Invest";
+			sourceTree = "<group>";
+		};
+		04AA83B9255D2190009F9622 /* Bharat - Alinea InvestTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AA83BA255D2190009F9622 /* Bharat___Alinea_InvestTests.swift */,
+				04AA83BC255D2190009F9622 /* Info.plist */,
+			);
+			path = "Bharat - Alinea InvestTests";
+			sourceTree = "<group>";
+		};
+		04AA83C4255D2190009F9622 /* Bharat - Alinea InvestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04AA83C5255D2190009F9622 /* Bharat___Alinea_InvestUITests.swift */,
+				04AA83C7255D2190009F9622 /* Info.plist */,
+			);
+			path = "Bharat - Alinea InvestUITests";
+			sourceTree = "<group>";
+		};
+		04AA83E6255D23D9009F9622 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04AA8427255E6B20009F9622 /* cells */,
+				04AA8415255E640D009F9622 /* ViewModels */,
+				04AA8411255E63F8009F9622 /* ViewControllers */,
+				04AA8410255E63E2009F9622 /* CustomViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04AA8410255E63E2009F9622 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				04AA8401255D48BD009F9622 /* CustomStackView.swift */,
+				04AA8406255D6489009F9622 /* CustomButton.swift */,
+				04AA840B255E5828009F9622 /* InternalConstraints.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		04AA8411255E63F8009F9622 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04AA83E1255D2302009F9622 /* MainViewController.swift */,
+				04AA83EA255D2C00009F9622 /* ExploreViewController.swift */,
+				04AA83F2255D3A83009F9622 /* CategoryViewController.swift */,
+				04AA83F7255D3A91009F9622 /* ThemesViewController.swift */,
+				04AA83FC255D3AA1009F9622 /* TrendingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04AA8415255E640D009F9622 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				04AA841C255E64EC009F9622 /* TrendingViewModel.swift */,
+				04682134256109C10058EC56 /* ThemesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04AA8416255E6423009F9622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04AA8417255E6450009F9622 /* Stock.swift */,
+				04682139256109F00058EC56 /* Theme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04AA8427255E6B20009F9622 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				04AA8428255E6B2E009F9622 /* TrendingTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AA839C255D218C009F9622 /* Bharat - Alinea Invest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AA83CA255D2191009F9622 /* Build configuration list for PBXNativeTarget "Bharat - Alinea Invest" */;
+			buildPhases = (
+				04AA8399255D218C009F9622 /* Sources */,
+				04AA839A255D218C009F9622 /* Frameworks */,
+				04AA839B255D218C009F9622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bharat - Alinea Invest";
+			productName = "Bharat - Alinea Invest";
+			productReference = 04AA839D255D218C009F9622 /* Bharat - Alinea Invest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AA83B5255D2190009F9622 /* Bharat - Alinea InvestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AA83CD255D2191009F9622 /* Build configuration list for PBXNativeTarget "Bharat - Alinea InvestTests" */;
+			buildPhases = (
+				04AA83B2255D2190009F9622 /* Sources */,
+				04AA83B3255D2190009F9622 /* Frameworks */,
+				04AA83B4255D2190009F9622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AA83B8255D2190009F9622 /* PBXTargetDependency */,
+			);
+			name = "Bharat - Alinea InvestTests";
+			productName = "Bharat - Alinea InvestTests";
+			productReference = 04AA83B6255D2190009F9622 /* Bharat - Alinea InvestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04AA83C0255D2190009F9622 /* Bharat - Alinea InvestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AA83D0255D2191009F9622 /* Build configuration list for PBXNativeTarget "Bharat - Alinea InvestUITests" */;
+			buildPhases = (
+				04AA83BD255D2190009F9622 /* Sources */,
+				04AA83BE255D2190009F9622 /* Frameworks */,
+				04AA83BF255D2190009F9622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AA83C3255D2190009F9622 /* PBXTargetDependency */,
+			);
+			name = "Bharat - Alinea InvestUITests";
+			productName = "Bharat - Alinea InvestUITests";
+			productReference = 04AA83C1255D2190009F9622 /* Bharat - Alinea InvestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AA8395255D218C009F9622 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					04AA839C255D218C009F9622 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					04AA83B5255D2190009F9622 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 04AA839C255D218C009F9622;
+					};
+					04AA83C0255D2190009F9622 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 04AA839C255D218C009F9622;
+					};
+				};
+			};
+			buildConfigurationList = 04AA8398255D218C009F9622 /* Build configuration list for PBXProject "Bharat - Alinea Invest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AA8394255D218C009F9622;
+			productRefGroup = 04AA839E255D218C009F9622 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AA839C255D218C009F9622 /* Bharat - Alinea Invest */,
+				04AA83B5255D2190009F9622 /* Bharat - Alinea InvestTests */,
+				04AA83C0255D2190009F9622 /* Bharat - Alinea InvestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AA839B255D218C009F9622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA83B0255D2190009F9622 /* LaunchScreen.storyboard in Resources */,
+				04AA83AD255D2190009F9622 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA83B4255D2190009F9622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA83BF255D2190009F9622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AA8399255D218C009F9622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA83AB255D218C009F9622 /* Bharat___Alinea_Invest.xcdatamodeld in Sources */,
+				04AA83FD255D3AA1009F9622 /* TrendingViewController.swift in Sources */,
+				04682135256109C10058EC56 /* ThemesViewModel.swift in Sources */,
+				04AA8418255E6450009F9622 /* Stock.swift in Sources */,
+				04AA83A1255D218C009F9622 /* AppDelegate.swift in Sources */,
+				04AA83EB255D2C00009F9622 /* ExploreViewController.swift in Sources */,
+				04AA840C255E5828009F9622 /* InternalConstraints.swift in Sources */,
+				04AA841D255E64EC009F9622 /* TrendingViewModel.swift in Sources */,
+				04AA8407255D6489009F9622 /* CustomButton.swift in Sources */,
+				04AA83A3255D218C009F9622 /* SceneDelegate.swift in Sources */,
+				04AA83F3255D3A83009F9622 /* CategoryViewController.swift in Sources */,
+				04AA8429255E6B2E009F9622 /* TrendingTableViewCell.swift in Sources */,
+				04AA8402255D48BD009F9622 /* CustomStackView.swift in Sources */,
+				04AA83E2255D2302009F9622 /* MainViewController.swift in Sources */,
+				04AA83F8255D3A91009F9622 /* ThemesViewController.swift in Sources */,
+				0468213A256109F00058EC56 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA83B2255D2190009F9622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA83BB255D2190009F9622 /* Bharat___Alinea_InvestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA83BD255D2190009F9622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA83C6255D2190009F9622 /* Bharat___Alinea_InvestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AA83B8255D2190009F9622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AA839C255D218C009F9622 /* Bharat - Alinea Invest */;
+			targetProxy = 04AA83B7255D2190009F9622 /* PBXContainerItemProxy */;
+		};
+		04AA83C3255D2190009F9622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AA839C255D218C009F9622 /* Bharat - Alinea Invest */;
+			targetProxy = 04AA83C2255D2190009F9622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04AA83AE255D2190009F9622 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AA83AF255D2190009F9622 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AA83C8255D2190009F9622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AA83C9255D2190009F9622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AA83CB255D2191009F9622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8F87J2FA9;
+				INFOPLIST_FILE = "Bharat - Alinea Invest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bharat.Bharat---Alinea-Invest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AA83CC255D2191009F9622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8F87J2FA9;
+				INFOPLIST_FILE = "Bharat - Alinea Invest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bharat.Bharat---Alinea-Invest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04AA83CE255D2191009F9622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8F87J2FA9;
+				INFOPLIST_FILE = "Bharat - Alinea InvestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bharat.Bharat---Alinea-InvestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bharat - Alinea Invest.app/Bharat - Alinea Invest";
+			};
+			name = Debug;
+		};
+		04AA83CF255D2191009F9622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8F87J2FA9;
+				INFOPLIST_FILE = "Bharat - Alinea InvestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bharat.Bharat---Alinea-InvestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bharat - Alinea Invest.app/Bharat - Alinea Invest";
+			};
+			name = Release;
+		};
+		04AA83D1255D2191009F9622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8F87J2FA9;
+				INFOPLIST_FILE = "Bharat - Alinea InvestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bharat.Bharat---Alinea-InvestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bharat - Alinea Invest";
+			};
+			name = Debug;
+		};
+		04AA83D2255D2191009F9622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8F87J2FA9;
+				INFOPLIST_FILE = "Bharat - Alinea InvestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bharat.Bharat---Alinea-InvestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bharat - Alinea Invest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AA8398255D218C009F9622 /* Build configuration list for PBXProject "Bharat - Alinea Invest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA83C8255D2190009F9622 /* Debug */,
+				04AA83C9255D2190009F9622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AA83CA255D2191009F9622 /* Build configuration list for PBXNativeTarget "Bharat - Alinea Invest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA83CB255D2191009F9622 /* Debug */,
+				04AA83CC255D2191009F9622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AA83CD255D2191009F9622 /* Build configuration list for PBXNativeTarget "Bharat - Alinea InvestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA83CE255D2191009F9622 /* Debug */,
+				04AA83CF255D2191009F9622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AA83D0255D2191009F9622 /* Build configuration list for PBXNativeTarget "Bharat - Alinea InvestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA83D1255D2191009F9622 /* Debug */,
+				04AA83D2255D2191009F9622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04AA83A9255D218C009F9622 /* Bharat___Alinea_Invest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04AA83AA255D218C009F9622 /* Bharat___Alinea_Invest.xcdatamodel */,
+			);
+			currentVersion = 04AA83AA255D218C009F9622 /* Bharat___Alinea_Invest.xcdatamodel */;
+			path = "Bharat___Alinea_Invest.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04AA8395255D218C009F9622 /* Project object */;
+}
